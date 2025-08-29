@@ -20,19 +20,13 @@ This app helps you manage daily tasks with features like adding, editing, deleti
 
 ## 📂 Project Structure
 
-To--do-app/
-│── index.html # Main HTML file
-
-│── style.css # Styling and themes
-
-│── script.js # JavaScript functionality
-
-│── README.md # Project documentation
-
-│── light-theme.png
-
-│── dark-theme.png
-
+To--do-app/  
+│── index.html # Main HTML file  
+│── style.css # Styling and themes  
+│── script.js # JavaScript functionality  
+│── README.md # Project documentation  
+│── light-theme.png  
+│── dark-theme.png  
 
 ---
 
@@ -41,6 +35,21 @@ To--do-app/
 - **HTML5**
 - **CSS3**
 - **JavaScript (ES6)**
+
+---
+
+## 🔗 Live Preview
+Check out the live project here: [To-Do Web App](https://emanqamar17.github.io/To--do-app/)
+
+---
+
+## 📸 Screenshots
+
+### Light Theme  
+![Light Theme](./light-theme.png)
+
+### Dark Theme  
+![Dark Theme](./dark-theme.png)
 
 ---
 
