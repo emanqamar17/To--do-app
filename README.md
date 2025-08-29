@@ -22,9 +22,17 @@ This app helps you manage daily tasks with features like adding, editing, deleti
 
 To--do-app/
 │── index.html # Main HTML file
+
 │── style.css # Styling and themes
+
 │── script.js # JavaScript functionality
+
 │── README.md # Project documentation
+
+│── light-theme.png
+
+│── dark-theme.png
+
 
 yaml
 Copy code
