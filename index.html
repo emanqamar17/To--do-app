@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Task Manager App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="light">
+  <div class="app-container">
+    <!-- HEADER -->
+    <header>
+      <h1>To-Do List</h1>
+      <button id="theme-toggle">Switch Theme</button>
+    </header>
+
+    <!-- TASK INPUT -->
+    <section class="task-input">
+      <label for="task-title">Task Title:</label>
+      <input type="text" id="task-title" placeholder="Enter task title">
+
+      <label for="task-desc">Task Description:</label>
+      <textarea id="task-desc" placeholder="Enter task description"></textarea>
+
+      <label for="task-due">Due Date and Time:</label>
+      <input type="datetime-local" id="task-due">
+
+      <button id="add-task">Add Task</button>
+    </section>
+
+    <!-- CONTROLS -->
+    <section class="task-controls">
+      <input type="text" id="search-bar" placeholder=" Search tasks...">
+      <select id="filter">
+        <option value="all">All</option>
+        <option value="completed">Completed</option>
+        <option value="pending">Pending</option>
+      </select>
+    </section>
+
+    <!-- TASK LIST -->
+    <ul id="task-list"></ul>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
