@@ -34,9 +34,6 @@ To--do-app/
 │── dark-theme.png
 
 
-yaml
-Copy code
-
 ---
 
 ## 🛠️ Technologies Used
